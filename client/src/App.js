@@ -1,6 +1,21 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
+
+//css
 import "./App.css";
+
+// pages
+import Saved from "./pages/saved"
+import Search from "./pages/search"
+
+// dependency components
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import io from "socket.io-client";
+
+// utils
+import API from "./utils/API";
+
+
 
 class App extends Component {
   render() {
