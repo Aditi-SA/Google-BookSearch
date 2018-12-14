@@ -1,3 +1,8 @@
 #searchTitle {
     margin-bottom: 25px;
+    color: blueviolet;
+}
+
+#searchButton{
+    background-color: brown;
 }
