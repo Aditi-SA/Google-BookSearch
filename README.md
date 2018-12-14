@@ -24,8 +24,5 @@ After both installations complete, run the following command in your terminal:
 yarn start
 ```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+The app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-### Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
