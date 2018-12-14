@@ -1,0 +1,29 @@
+.bookImg {
+    min-width: 200px;
+    max-height: 300px;
+    padding: 2px;
+    border: 1px solid #0c158a;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.logTop {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+}
+
+.viewBtn {
+    margin-right: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    padding: 40px;
+}
